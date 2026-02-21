@@ -5,40 +5,26 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full">
-      {/* Main Footer Section - Light Green Background */}
-      <div className="bg-[#dcfce7] py-16 px-6">
+      {/* Main Footer Section - Light Blue Background */}
+      <div className="bg-[#dce2fc] py-16 px-6">
         <div className="container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Column 1: Logo & Info */}
           <div className="space-y-6">
             <div className="flex flex-col leading-none">
               <div className="flex items-center gap-2 mb-2">
                 {/* Icon */}
-                <svg
-                  className="w-8 h-8 text-slate-800"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                  />
-                </svg>
                 <span className="font-bold text-xl tracking-wider text-slate-900">
-                  ABOVE GROUND
+                  DRONE SURVEY GH
                 </span>
               </div>
-              <span className="font-bold text-sm tracking-[0.4em] text-slate-900 pl-10">
-                SURVEYS
+              <span className="font-bold text-sm tracking-wider text-slate-900">
+                AERIAL SURVEY & MAPPING
               </span>
             </div>
             <p className="text-slate-700 text-sm leading-relaxed">
-              Independent aerial surveying specialists based in Kent, trusted
-              UK-wide by contractors, property owners, and facilities managers.
-              We don't carry out repairs, ensuring truly impartial inspections
-              with no vested interest in finding faults.
+              Ghana's number one trusted independent aerial surveying specialists. 
+			  Experts in the field of drone surveys & independent roof inspections.
+			  Our operators’ aviation skills are developed and certified in the UK by the Civil Aviation Authority (CAA)
             </p>
           </div>
 
@@ -49,14 +35,13 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm text-slate-700 font-medium">
               {[
-                "Building Inspections",
+                "Construction Drone Services",
+				"Roof Survey",
+                "Roof Inspection",
                 "Commercial Roof Leak Testing",
-                "Drone Photogrammetry & 3D Mapping Services",
-                "Drone Roof Inspection",
+				"3D Mapping Services",
                 "Environmental Inspections",
                 "Insurance Inspections and Claims",
-                "Internal Loft Inspections",
-                "Marketing Footage",
               ].map((item, i) => (
                 <li
                   key={i}
@@ -78,12 +63,12 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-slate-700 font-medium">
               {[
                 "Premium Aerial Property Photography",
-                "Pre-Purchase Roof Survey",
-                "Roof Inspection",
+				"Drone Photogrammetry",
+                "Drone Roof Inspection",
                 "Solar Panel Inspection",
                 "Subsidence Drone Surveys",
+                "LiDAR",
                 "Thermal Imaging",
-                "Wind Turbine Inspection",
               ].map((item, i) => (
                 <li
                   key={i}
@@ -207,7 +192,7 @@ export default function Footer() {
       {/* Bottom Bar - Dark */}
       <div className="bg-[#0f172a] text-slate-400 py-6 px-6 text-xs border-t border-slate-800">
         <div className="container mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>© 2025 Above Ground Surveys. All Rights Reserved.</p>
+          <p>© 2026 Drone Survey Ghana. All Rights Reserved.</p>
           <div className="flex gap-4">
             <Link
               href="#"
