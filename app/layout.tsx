@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DroneSurvey GH - Aerial Survey & Mapping",
   description:
-    "Leading drone-based environmental monitoring services in Ghana. We provide comprehensive solutions for air quality, water quality, vegetation health, and wildlife monitoring. Our advanced drone technology delivers accurate data for informed decision-making and sustainable environmental management.",
+    "Leading drone-based environmental monitoring services in Ghana. We provide comprehensive solutions for land surveying, air quality, water quality, agriculture, and wildlife monitoring. Our advanced drone technology delivers accurate data for informed decision-making and sustainable environmental management.",
 };
 
 import Header from "@/components/layout/Header";
